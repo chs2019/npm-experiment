@@ -9,7 +9,7 @@
     "build": "vite build",
     "preview": "vite preview",
     "format": "prettier --write .",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "vitest"
   },
   "author": "Christian Schmidt",
   "license": "ISC",
@@ -22,7 +22,8 @@
     "eslint-plugin-react-hooks": "^4.6.2",
     "globals": "^15.8.0",
     "prettier": "^3.3.2",
-    "vite": "^5.3.3"
+    "vite": "^5.3.3",
+    "vitest": "^2.0.2"
   },
   "dependencies": {
     "@tanstack/react-query": "^5.51.1",
